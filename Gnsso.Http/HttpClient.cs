@@ -18,7 +18,7 @@ namespace Gnsso.Http
         }
 
         public abstract string BaseUrl { get; }
-        public virtual string UserAgent { get; } = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36 OPR/50.0.2762.67";
+        public virtual string UserAgent { get; } = "Gnsso.Http";
         public virtual int Timeout { get; } = 10000;
         public virtual int RetriesAfterTimeout { get; } = 3;
 
